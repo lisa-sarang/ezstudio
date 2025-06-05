@@ -2,36 +2,93 @@
   "bookings": [
     {
       "id": 1,
-      "customer_name": "Soojin Kim",
-      "shoot_type": "Personal Portrait",
-      "reservation_date": "2025-06-10",
-      "reservation_time": "14:00",
-      "duration_hours": 2,
-      "contact": "soojin.kim@example.com",
-      "special_requests": "원본 파일 포함 / 화이트 배경 요청",
-      "status": "confirmed"
+      "customer": {
+        "name": "이소라",
+        "email": "sora@example.com",
+        "phone": "010-1234-5678"
+      },
+      "schedule": {
+        "date": "2025-06-10",
+        "time": "14:00",
+        "duration": 2,
+        "service": "프로필 촬영",
+        "photographer": "김민수",
+        "location": "A룸"
+      },
+      "payment": {
+        "method": "카드",
+        "price": 120000,
+        "paid": true,
+        "paid_at": "2025-06-01T12:30:00Z"
+      },
+      "options": {
+        "makeup": true,
+        "retouch": true,
+        "background": "화이트",
+        "outfit_change": 2
+      },
+      "status": "confirmed",
+      "note": "흰색 배경 요청"
     },
     {
       "id": 2,
-      "customer_name": "Soojin Kim",
-      "shoot_type": "Product Photography",
-      "reservation_date": "2025-06-12",
-      "reservation_time": "10:30",
-      "duration_hours": 3,
-      "contact": "david.lee@brandco.kr",
-      "special_requests": "조명 장비 사용 / 배경지 블랙으로",
-      "status": "pending"
+      "customer": {
+        "name": "박지민",
+        "email": "jimin@example.com",
+        "phone": "010-5678-9012"
+      },
+      "schedule": {
+        "date": "2025-06-12",
+        "time": "10:00",
+        "duration": 1,
+        "service": "웨딩 스냅",
+        "photographer": "유진아",
+        "location": "야외촬영"
+      },
+      "payment": {
+        "method": "계좌이체",
+        "price": 300000,
+        "paid": false,
+        "paid_at": null
+      },
+      "options": {
+        "makeup": false,
+        "retouch": false,
+        "background": "자연광",
+        "outfit_change": 1
+      },
+      "status": "pending",
+      "note": "비 오면 연기"
     },
     {
       "id": 3,
-      "customer_name": "Minji Park",
-      "shoot_type": "Couple Studio",
-      "reservation_date": "2025-06-15",
-      "reservation_time": "16:00",
-      "duration_hours": 1.5,
-      "contact": "minji_park99@gmail.com",
-      "special_requests": "반려견 동반 예정 / 드레스룸 사용",
-      "status": "confirmed"
+      "customer": {
+        "name": "김하늘",
+        "email": "haneul@example.com",
+        "phone": "010-2345-6789"
+      },
+      "schedule": {
+        "date": "2025-06-15",
+        "time": "16:00",
+        "duration": 3,
+        "service": "가족 사진",
+        "photographer": "최강훈",
+        "location": "B룸"
+      },
+      "payment": {
+        "method": "현금",
+        "price": 180000,
+        "paid": true,
+        "paid_at": "2025-06-05T09:20:00Z"
+      },
+      "options": {
+        "makeup": false,
+        "retouch": true,
+        "background": "그레이",
+        "outfit_change": 0
+      },
+      "status": "confirmed",
+      "note": "강아지 동반 촬영"
     }
   ]
 }
