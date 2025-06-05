@@ -1,0 +1,37 @@
+{
+  "bookings": [
+    {
+      "id": 1,
+      "customer_name": "Soojin Kim",
+      "shoot_type": "Personal Portrait",
+      "reservation_date": "2025-06-10",
+      "reservation_time": "14:00",
+      "duration_hours": 2,
+      "contact": "soojin.kim@example.com",
+      "special_requests": "원본 파일 포함 / 화이트 배경 요청",
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "customer_name": "David Lee",
+      "shoot_type": "Product Photography",
+      "reservation_date": "2025-06-12",
+      "reservation_time": "10:30",
+      "duration_hours": 3,
+      "contact": "david.lee@brandco.kr",
+      "special_requests": "조명 장비 사용 / 배경지 블랙으로",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "customer_name": "Minji Park",
+      "shoot_type": "Couple Studio",
+      "reservation_date": "2025-06-15",
+      "reservation_time": "16:00",
+      "duration_hours": 1.5,
+      "contact": "minji_park99@gmail.com",
+      "special_requests": "반려견 동반 예정 / 드레스룸 사용",
+      "status": "confirmed"
+    }
+  ]
+}
